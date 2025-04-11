@@ -1,6 +1,6 @@
-# Themisto: Multi-Label Image Classification
+# Multi-Label Image Classification
 
-This repository contains the code and results for the Themisto deep learning project, developed as part of a classification competition. The goal was to train a multi-label image classifier capable of assigning multiple tags to individual images. Over the course of seven days, several architectures and training strategies were explored to improve macro F1 score performance.
+This repository contains the code and results for the second deep learning project, developed as part of a classification competition. The goal was to train a multi-label image classifier capable of assigning multiple tags to individual images. Over the course of seven days, several architectures and training strategies were explored to improve macro F1 score performance.
 
 ## 🔍 Problem Statement
 
@@ -12,7 +12,7 @@ Multi-label classification differs from standard classification tasks in that ea
 ├── train_example_dayX.py   # Training scripts for each experimental iteration
 ├── results_Themisto_dayX.xlsx # Output result files with predictions and F1 scores
 ├── model_Themisto_dayX.pt  # Saved PyTorch model weights
-├── test_themisto.py        # Unified test script for evaluating trained models
+├── test_Themisto.py        # Unified test script for evaluating trained models
 ├── report_Themisto.docx    # Final narrative report aligned with rubric
 ├── README.md               # This file
 ```
@@ -45,7 +45,7 @@ Multi-label classification differs from standard classification tasks in that ea
    ```
 3. Evaluate your trained model using:
    ```bash
-   python3 test_themisto.py --path . --split test
+   python3 test_Themisto.py --path . --split test
    ```
 
 ## 📈 Results
@@ -55,7 +55,7 @@ Class-wise F1 scores are available in the result `.xlsx` files.
 
 ## 📄 Report
 
-The full development process, experiments, and findings are detailed in `report_Themisto_Revised.docx`.
+The full development process, experiments, and findings are detailed in `report_Themisto.docx`.
 
 ## 🧑‍💻 Author
 
